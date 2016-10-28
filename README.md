@@ -16,3 +16,6 @@ Android RecyclerView : 23.1.1</br>
 Android Card View : 23.1.1</br>
 Google Play Services : 8.4.0</br>
 Google Drive Api</br>
+
+
+The Project is under is GNU General Public License and is open for contributors to contribute. Contribution guidlines will be added at later stage.
