@@ -34,7 +34,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Created by harshita30 on 20/10/16.
+ * @author Vishwajeet
+ * @since 28 October 2016
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private SMSAdapter smsAdapter;
     private ArrayList<SMS> smsDataList;
     private Cursor c;
-    private UploadToDrive uploadTask;
+    private UploadToDrive uploadSMS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -239,9 +240,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
             return true;
         }
-        if (id == R.id.action_share) {
-            uploadTask = new UploadToDrive();
-            uploadTask.execute();
+        if (id == R.id.action_upload_to_drive) {
+            uploadSMS = new UploadToDrive();
+            uploadSMS.execute();
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -249,9 +250,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
-        if (uploadTask != null) {
-            uploadTask.cancel(false);
-            uploadTask.pDialog.dismiss();
+        if (uploadSMS != null) {
+            uploadSMS.cancel(false);
+            uploadSMS.pDialog.dismiss();
         }
         super.onPause();
     }

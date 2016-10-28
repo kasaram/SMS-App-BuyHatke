@@ -8,8 +8,8 @@
         android:icon="@drawable/ic_magnify_white_24dp"
         android:title="Search"
         app:showAsAction="ifRoom"/>
-    <item android:id="@+id/action_share"
+    <item android:id="@+id/action_upload_to_drive"
         android:icon="@drawable/ic_backup_white_24dp"
-        android:title="Search"
+        android:title="Upload"
         app:showAsAction="ifRoom"/>
 </menu>
