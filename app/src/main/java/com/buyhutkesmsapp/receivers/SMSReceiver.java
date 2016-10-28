@@ -46,7 +46,7 @@ public class SMSReceiver extends BroadcastReceiver
 
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(c)
-                        .setSmallIcon(R.drawable.ic_email)
+                        .setSmallIcon(R.drawable.ic_note_add_white_24dp)
                         .setContentTitle("New Message")
                         .setContentText(notificationTitle)
                         .setContentIntent(pIntent)
