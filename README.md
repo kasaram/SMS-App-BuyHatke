@@ -2,11 +2,11 @@
 
 An android application to send and receive the SMS similar to the inbuilt sms application in the mobile phones developed as part of task given by BuyHatke. 
 
-Features of the application:
-1. Push Notifications are used to inform user when a new message arrives.
-2. Search functionality is implemented to find a particular SMS.
-3. For Backup purpose google drive is used to upload the sms in text format.
-4. Feature of sending an SMS to a particular number is aprovided in the application.
+Features of the application:</br>
+1. Push Notifications are used to inform user when a new message arrives.</br>
+2. Search functionality is implemented to find a particular SMS.</br>
+3. For Backup purpose google drive is used to upload the sms in text format.</br>
+4. Feature of sending an SMS to a particular number is aprovided in the application.</br>
 
 The Libraries used are :</br> 
 
